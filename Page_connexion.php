@@ -1,11 +1,10 @@
 <?php 
-
-$titre = "Page de connexion";
-include 'C:\UwAmp\www\creation-site-internet-ping\Header.php';
-include 'C:\UwAmp\www\creation-site-internet-ping\retour.php';
-
+    $titre = "Page de connexion";
+    include 'Header.php';
 ?>
+
 <body>
+    <?php include 'retour.php'; ?>
     <h2>Connexion</h2>
 
     <div  align="center" class="row" >
