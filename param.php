@@ -3,5 +3,5 @@
   $host="localhost";
   $login="root";
   $passwd="root";
-  $dbname="demo";
+  $dbname="identification_ping";
 ?>
