@@ -12,3 +12,7 @@ a{
     right:1%;
     z-index:9999;
   }
+
+.boutonLeft{
+    float:right;
+}
