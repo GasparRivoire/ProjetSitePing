@@ -1,18 +1,20 @@
 <?php 
     $titre = "Page de connexion";
     $Page = "index.html";
+    $fe = "téléchargement.jfif";
     include 'Header.php';
 ?>
 
-<body>
+
     <?php include 'retour.php'; ?>
     <br>
-    <h2 align="center">Connexion</h2>
+    <h1 align="center">Connexion</h1>
     <br>
     <br>
     <br>
     <br>
     <br>
+    <body background="_J8A1391hd.jpeg" style="background-size:cover;">
     <div  styles="width: 8em;" align="center" class="row" >
         <form method="POST" action="connexion1.php">
 
