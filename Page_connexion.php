@@ -23,7 +23,7 @@
             <br>
             <label for="Mdp" class="form-label">Mot de passe :</label>
             
-            <input type="Mdp" type="form-control" id="Mdp" name="Mdp" placeholder="Votre Mot de passe..." required>
+            <input type="password" type="form-control" id="Mdp" name="Mdp" placeholder="Votre Mot de passe..." required>
             <br>
             <br>
             <br>

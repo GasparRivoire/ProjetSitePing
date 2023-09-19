@@ -27,11 +27,11 @@
     // On a trouvé un utilisateur avec la bonne adresse Email :
     $tuple = $resultat->fetch_assoc();
     // Vérification du mot de passe :
-    if (password_verify($password, $tuple['password'])) {
+    if (password_verify($Mdp, $tuple['Mdp'])) {
       // Si le mot de passe est correct :
       $_SESSION['message'] = "Connexion réussie";
-      $_SESSION['login'] = $tuple['prenom'];
-      $_SESSION['role'] = $tuple['role'];
+      $_SESSION['login'] = $tuple['Prénom'];
+      $_SESSION['role'] = $tuple['Type'];
     }
     else // Sinon :
         $_SESSION['erreur'] = "Erreur de connexion";
