@@ -14,7 +14,7 @@
     <br>
     <br>
     <br>
-    <body background="_J8A1391hd.jpeg" style="background-size:cover;">
+    <body>
     <div  styles="width: 8em;" align="center" class="row" >
         <form method="POST" action="connexion1.php">
 

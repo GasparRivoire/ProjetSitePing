@@ -2,6 +2,10 @@ p{
     font-size: large;
 }
 
+.background-container {
+    background-color: #ffffff ; /* Couleur de fond */
+    padding: 10px; /* Espace autour du texte */
+}
 
 
 a{
