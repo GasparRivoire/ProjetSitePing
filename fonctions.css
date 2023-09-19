@@ -3,8 +3,9 @@ p{
 }
 
 .background-container {
-    background-color: #ffffff ; /* Couleur de fond */
+    background-color: #848484 ; /* Couleur de fond */
     padding: 10px; /* Espace autour du texte */
+    display: inline-block;
 }
 
 
