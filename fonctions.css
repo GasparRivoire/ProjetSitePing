@@ -3,9 +3,11 @@ p{
 }
 
 .background-container {
-    background-color: #848484 ; /* Couleur de fond */
-    padding: 10px; /* Espace autour du texte */
-    display: inline-block;
+    
+}
+
+.front{
+    background-color: rgba(255, 255, 255, 0);
 }
 
 
@@ -22,4 +24,12 @@ a{
 
 .boutonLeft{
     float:right;
+}
+
+.textee{
+    display: inline-block;
+    background-color: rgb(20, 197, 58);
+    padding: 20px;
+    max-width: 800px; /* Définissez la largeur maximale de la zone de texte */
+    margin: 0 auto; /* Centrez horizontalement la zone de texte */
 }
