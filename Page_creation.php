@@ -1,10 +1,10 @@
 <?php 
     $titre = "Page de création de cours";
-    $Page = "index.html";
+    $Page = "index.php";
     include 'Header.php';
+    include 'retour.php';
 ?>
 
-<?php include 'retour.php'; ?>
 
 <div class="container">
     <br><br>

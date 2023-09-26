@@ -5,11 +5,17 @@
     include 'retour.php';
 ?>
 
-<body>
+<body background="abc.jpg" style="background-size:cover;">
+
+<div align="center">
+        <img src="1586606829_Esigelec.png" class="rounded mx-auto d-block" alt="Logo ESIGELEC">
+</div>
+  
 <div class="row">
       <div class="col">
-        <div align="center" class="background-container">
+        <div align="center" class="container background-container">
           <p class="fs-3 col-lg-5">
+            <br>
             Mail de l'administration : <br><br>dgpsogk@gmail.com
           </p>
           <br><br><br>

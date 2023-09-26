@@ -36,7 +36,7 @@
     // Le message est mis dans la session, il est préférable de séparer message normal et message d'erreur.
     if($stmt->execute()) {
         // Requête exécutée correctement 
-        
+        header('Location: index.php');
         $_SESSION['message'] = "Enregistrement réussi";
 
     } else {
@@ -45,7 +45,7 @@
     }
   }
   // Redirection vers la page d'accueil par exemple :
-  //header('Location: index.php');
+  
 
 
 ?>

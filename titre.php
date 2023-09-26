@@ -5,6 +5,7 @@
     include 'Header.php';
     include 'retour.php';
 ?>
+<body background="abc.jpg" style="background-size:cover;">
     <div align="center">
         <img src="1586606829_Esigelec.png" class="rounded mx-auto d-block" alt="Logo ESIGELEC">
     </div>
@@ -31,3 +32,5 @@
           
     </div>
 
+</body>
+    
