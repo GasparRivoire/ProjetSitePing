@@ -46,7 +46,7 @@
             étaient répartis en 65 équipes, par groupes de 6 environ, issus des 
             différentes dominantes de l'école.
           </p>
-          <a class="btn btn-primary me-md-2" href="Page création compte.html" role="button">Consulter les titres des sujets</a>
+          <a class="btn btn-primary me-md-2" href="titre.php" role="button">Consulter les titres des sujets</a>
       
         </div>
       </div>

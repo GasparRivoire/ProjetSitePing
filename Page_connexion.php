@@ -1,6 +1,6 @@
 <?php 
     $titre = "Page de connexion";
-    $Page = "index.html";
+    $Page = "index.php";
     $fe = "téléchargement.jfif";
     include 'Header.php';
 ?>
