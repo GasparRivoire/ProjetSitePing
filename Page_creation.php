@@ -10,7 +10,7 @@
     <br><br>
 <h1>Inscription</h1>
 <br><br><br><br>
-<form method="POST" action="connexion1.php">
+<form method="POST" action="Inscription.php">
         
     <div class="row my-3" >
         <div class="col-md-6">

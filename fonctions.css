@@ -3,7 +3,8 @@ p{
 }
 
 .background-container {
-    
+    max-width: 80%; /* Définissez la largeur maximale de la zone de texte */
+    background-color: rgba(136, 140, 136, 0.596);
 }
 
 .front{
@@ -27,9 +28,6 @@ a{
 }
 
 .textee{
-    display: inline-block;
-    background-color: rgb(20, 197, 58);
-    padding: 20px;
-    max-width: 800px; /* Définissez la largeur maximale de la zone de texte */
-    margin: 0 auto; /* Centrez horizontalement la zone de texte */
+    
+    
 }

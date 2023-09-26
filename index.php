@@ -14,20 +14,21 @@
     <div class="containers">
         
         <div class="row">
-
-            <div >
-                <img src="1586606829_Esigelec.png" class="rounded mx-auto d-block" alt="Logo ESIGELEC">
-            </div>
-        
-        
-           
-        <div class="d-grid gap-2 justify-content-md-end">
+          <div class="d-grid gap-2 justify-content-md-end">
           
             <a class="btn btn-primary me-md-2" href="Page_creation.php" role="button">Créer compte</a>
             <a class="btn btn-primary me-md-2" href="Page_connexion.php" role="button">Page connexion</a>
             
            
         </div>
+        
+            <div >
+                <img src="1586606829_Esigelec.png" class="rounded mx-auto d-block" alt="Logo ESIGELEC">
+            </div>
+        
+        
+           
+        
         
         
         
@@ -37,18 +38,15 @@
     </div>
     <div class="row">
       <div class="col">
-        <div align="center" class="background-container">
-          <div class="textee">
-            <p class="fs-3 col-lg-5">
-              Le projet ingénieur (PING) permet aux étudiants de 5e année de réaliser 
-              un projet innovant, porté par un commanditaire et avec le soutien des
-              enseignants de l'école. Cette année, les 400 étudiants de dernière année
-              étaient répartis en 65 équipes, par groupes de 6 environ, issus des 
-              différentes dominantes de l'école.
-            </p>
-            <a class="btn btn-primary me-md-2" href="Page création compte.html" role="button">Consulter les titres des sujets</a>
-          </div>
-          
+        <div align="center" class="container background-container p-0">
+          <p class="fs-3 col-lg-5">
+            Le projet ingénieur (PING) permet aux étudiants de 5e année de réaliser 
+            un projet innovant, porté par un commanditaire et avec le soutien des
+            enseignants de l'école. Cette année, les 400 étudiants de dernière année
+            étaient répartis en 65 équipes, par groupes de 6 environ, issus des 
+            différentes dominantes de l'école.
+          </p>
+          <a class="btn btn-primary me-md-2" href="Page création compte.html" role="button">Consulter les titres des sujets</a>
       
         </div>
       </div>
