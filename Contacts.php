@@ -1,6 +1,6 @@
 <?php 
     $titre = "Contacts";
-    $Page = "index.html";
+    $Page = "index.php";
     include 'Header.php';
     include 'retour.php';
 ?>
