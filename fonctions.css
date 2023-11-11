@@ -3,7 +3,7 @@ p{
 }
 
 .background-container {
-    max-width: 80%; /* Définissez la largeur maximale de la zone de texte */
+    max-width: 80%;
     background-color: rgba(136, 140, 136, 0.596);
 }
 

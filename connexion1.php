@@ -15,7 +15,7 @@
     }
 
 
-  $requete = "SELECT * FROM utilisateur WHERE Email='$Email'";
+  $requete = "SELECT * FROM user WHERE Email='$Email'";
   $resultat = $mysqli->query($requete);
   if (!$resultat) {
 
@@ -27,7 +27,8 @@
  
     $tuple = $resultat->fetch_assoc();
 
-    if (password_verify($Mdp, $tuple['Mdp'])) {
+    if ($Mdp == $tuple['Mdp']) {
+      // if (password_verify($Mdp, $tuple['Mdp'])) {
 
       $_SESSION['message'] = "Connexion réussie";
       $_SESSION['login'] = $tuple['Prénom'];
@@ -38,5 +39,6 @@
         $_SESSION['erreur'] = "Erreur de connexion";
         
   }
+  
 
 ?>

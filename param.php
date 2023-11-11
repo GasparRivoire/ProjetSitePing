@@ -1,7 +1,7 @@
 <?php
   // Paramètre de connexion à la BDD (à créer)
-  $host="localhost";
-  $login="root";
-  $passwd="root";
+  $host="moduleweb.esigelec.fr";
+  $login="grp_15_7";
+  $passwd="A4sCb1rvL5kD";
   $dbname="identification_ping";
 ?>
