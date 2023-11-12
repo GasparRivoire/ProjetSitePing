@@ -1,6 +1,6 @@
 <?php 
     $titre = "Titres des sujets";
-    $Page = "index.php";
+    $Page = "eleve.php";
     $fe = "téléchargement.jfif";
     include 'Header.php';
     include 'retour.php';
@@ -20,7 +20,7 @@
                     Sujet 1 : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloremque?.
                </div> 
                <div class="col-2">
-                    <button onclick="window.location.href = 'Sujet1.php'">Consulter</button>
+                    <button onclick="window.location.href = 'Sujet.php'">Consulter</button>
                </div> 
             </div>
             <hr>
@@ -29,7 +29,7 @@
                     Sujet 2 : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloremque?.
                </div> 
                <div class="col-2">
-                    <button onclick="window.location.href = 'Sujet2.php'">Consulter</button>
+                    <button onclick="window.location.href = 'Sujet.php'">Consulter</button>
                </div> 
             </div>
             <hr>
