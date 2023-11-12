@@ -2,10 +2,16 @@ p{
     font-size: large;
 }
 
-.background-container {
+.col.background-container {
     max-width: 80%;
     background-color: rgba(136, 140, 136, 0.596);
 }
+
+
+.back {
+    background-color: rgba(136, 140, 136, 0.596);
+}
+
 
 .front{
     background-color: rgba(255, 255, 255, 0);

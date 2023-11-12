@@ -33,7 +33,7 @@
       $_SESSION['message'] = "Connexion réussie";
       $_SESSION['login'] = $tuple['Prénom'];
       $_SESSION['role'] = $tuple['Type'];
-      header('Location: élève.php');
+      header('Location: eleve.php');
     }
     else 
         $_SESSION['erreur'] = "Erreur de connexion";
