@@ -29,9 +29,10 @@
 
     if ($Mdp == $tuple['Mdp']) {
       // if (password_verify($Mdp, $tuple['Mdp'])) {
-
+      $_SESSION['Id'] = $tuple['Id'];
       $_SESSION['message'] = "Connexion réussie";
-      $_SESSION['login'] = $tuple['Prénom'];
+      $_SESSION['Prenom'] = $tuple['Prenom'];
+      $_SESSION['Nom'] = $tuple['Nom'];
       $_SESSION['role'] = $tuple['Type'];
       header('Location: eleve.php');
     }

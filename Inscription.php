@@ -3,7 +3,7 @@
 
   
   $nom =  htmlentities($_POST['Nom']);
-  $prenom = htmlentities($_POST['Prénom']);
+  $prenom = htmlentities($_POST['Prenom']);
   $email =  htmlentities($_POST['Email']);
   $password = htmlentities($_POST['Mdp']);
   $type = 1; 
@@ -25,7 +25,7 @@
 
 
 
-  if ($stmt = $mysqli->prepare("INSERT INTO user(Nom, Prénom, Email, Mdp, Type) VALUES (?, ?, ?, ?, ?)")) {
+  if ($stmt = $mysqli->prepare("INSERT INTO user(Nom, Prenom, Email, Mdp, Type) VALUES (?, ?, ?, ?, ?)")) {
     
     $password = password_hash($password, PASSWORD_BCRYPT, $options);
     $stmt->bind_param("ssssi", $nom, $prenom, $email, $password, $type);

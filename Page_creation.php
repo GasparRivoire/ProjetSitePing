@@ -21,9 +21,9 @@
 
         </div>
         <div class="col-md-6">
-            <label for="Prénom" class="form-label">Prénom</label>
+            <label for="Prenom" class="form-label">Prenom</label>
             <br>
-            <input type="text" class="form-control" id="Prénom" name="Prénom" placeholder="Votre prénom..." required>
+            <input type="text" class="form-control" id="Prenom" name="Prenom" placeholder="Votre Prenom..." required>
         </div>
     </div>
     <div class="row my-3">
