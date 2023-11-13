@@ -17,9 +17,6 @@
         
         <div class="row">
           <div class="d-grid gap-2 justify-content-md-end">
-          
-            <a class="btn btn-primary me-md-2" href="Page_creation.php" role="button">Créer compte</a>
-            <a class="btn btn-primary me-md-2" href="Page_connexion.php" role="button">Page connexion</a>
             
            
         </div>
@@ -42,7 +39,7 @@
     
     <div class="d-grid col-3 ml-md-2">
       <br>
-      <button class="btn btn-primary m-0" onclick="window.location.href = 'Contacts.php';">Nous contacter</button>
+      <button class="btn btn-primary m-0" onclick="window.location.href = 'Contacts1.php';">Nous contacter</button>
       
      
     </div>

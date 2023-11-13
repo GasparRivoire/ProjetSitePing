@@ -14,36 +14,37 @@
             <br>
             <br>
         <div align="center" class="container background-container p-0">
-           <hr>
-            <div class="row">
-               <div class="col-10">
-                    Sujet 1 : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloremque?.
-               </div> 
-               <div class="col-2">
-                    <button onclick="window.location.href = 'Sujet.php'">Consulter</button>
-               </div> 
-            </div>
-            <hr>
-            <div class="row">
-               <div class="col-10">
-                    Sujet 2 : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloremque?.
-               </div> 
-               <div class="col-2">
-                    <button onclick="window.location.href = 'Sujet.php'">Consulter</button>
-               </div> 
-            </div>
-            <hr>
-            <div class="row">
-               <div class="col-10">
-                    Sujet 3 : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloremque?.
-               </div> 
-               <div class="col-2">
-                    <button onclick="window.location.href = 'Sujet.php'">Consulter</button>
-               </div> 
-            </div>
-            <hr>
-          
-      
+               <form method="POST" action="connexion1.php">
+                    <hr>
+                    <div class="row">
+                         <div class="col-10">
+                              Sujet 1 : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloremque?.
+                         </div> 
+                         <div class="col-2">
+                              <button onclick="window.location.href = 'Sujet.php'">Consulter</button>
+                         </div> 
+                    </div>
+                    <hr>
+                    <div class="row">
+                         <div class="col-10">
+                              Sujet 2 : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloremque?.
+                         </div> 
+                         <div class="col-2">
+                              <button onclick="window.location.href = 'Sujet.php'">Consulter</button>
+                         </div> 
+                    </div>
+                    <hr>
+                    <div class="row">
+                         <div class="col-10">
+                              Sujet 3 : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloremque?.
+                         </div> 
+                         <div class="col-2">
+                              <button onclick="window.location.href = 'Sujet.php'">Consulter</button>
+                         </div> 
+                    </div>
+                    <hr>
+                    
+               </form>
         </div>
 
 </body>

@@ -34,6 +34,7 @@
       $_SESSION['Prenom'] = $tuple['Prenom'];
       $_SESSION['Nom'] = $tuple['Nom'];
       $_SESSION['role'] = $tuple['Type'];
+      
       header('Location: eleve.php');
     }
     else 

@@ -16,7 +16,7 @@
         <div align="center" class="container background-container p-0">
            <hr>
             <div class="row">
-               <div class= "col">Titre projet :</div>
+               <div class= "col">Titre projet : </div>
             </div>
             <hr>
             <div class="row">
