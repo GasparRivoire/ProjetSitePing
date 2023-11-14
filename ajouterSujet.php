@@ -4,6 +4,9 @@ session_start();
 $titreSujet = htmlentities($_POST['TitreSujet']);
 $descSujet = htmlentities($_POST['DescSujet']);
 
+echo "Titre du sujet : " . $titreSujet . "<br>";
+echo "Description du sujet : " . $descSujet . "<br>";
+
 require_once("param.php");
 $mysqli = new mysqli($host, $login, $passwd, $dbname);
 
@@ -19,7 +22,11 @@ if ($stmt = $mysqli->prepare("INSERT INTO sujets(nom, description) VALUES (?, ?)
         header('Location: commissionPing.php');
     } else {
         $_SESSION['erreur'] = "Impossible d'enregistrer le sujet. Erreur SQL : " . $stmt->error;
+        echo "Erreur SQL : " . $stmt->error;
     }
+
+    
+    
 
     $stmt->close();
 }
