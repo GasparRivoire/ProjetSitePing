@@ -22,7 +22,7 @@ $stmt->bind_param("ss", $titreSujet, $descSujet);
 if ($stmt->execute()) {
     $_SESSION['message'] = "Enregistrement du sujet réussi";
     header('Location: commissionPing.php');
-    exit; // Assurez-vous de terminer le script après une redirection
+    exit;
 } else {
     $_SESSION['erreur'] = "Impossible d'enregistrer le sujet. Erreur SQL : " . $stmt->error;
     error_log("Erreur SQL lors de l'insertion dans la table sujets : " . $stmt->error);
