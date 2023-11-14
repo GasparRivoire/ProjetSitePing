@@ -4,6 +4,7 @@
     $fe = "téléchargement.jfif";
     include 'Header.php';
     include 'retour.php';
+    include 'getSujets.php';
 ?>
 <body background="abc.jpg" style="background-size:cover;">
     <div align="center">
@@ -13,13 +14,19 @@
     <div class="row">
       <div class="col">
         <div align="center" class="container background-container p-0">
-          <p class="fs-3 col-lg-5">
-            Sujet 1 : qpsfoks^qdofkq^sodfkqs^dfqsodfpqsdfo.
-            <br>
-            Sujet 2 : sqdfqsdf;qpsdf;qpsdfopqsdoflpqsdoffp.
-            <br>
-            Sujet 3 : sdpfoqsdfpqlsdfpsqdlfpqsdlfpsqdsdpfs.
-          </p>
+        <?php
+                              foreach ($listeSujets as $index => $sujet) {
+                                   echo 
+                                   "<hr>
+                                   <div class='row'>
+                                       <div class='col-10' align='left'>
+                                           Sujet {$sujet['id']}: {$sujet['nom']}
+                                       </div> 
+                                   </div>
+                                   <hr>";
+                               }
+                               
+                              ?>
           
       
         </div>

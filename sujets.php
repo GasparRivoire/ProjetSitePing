@@ -4,6 +4,7 @@
     $fe = "téléchargement.jfif";
     include 'Header.php';
     include 'retour.php';
+    include 'getSujets.php';
 ?>
 <body background="abc.jpg" style="background-size:cover;">
     <div align="center">
@@ -12,40 +13,29 @@
             <br>
             <br>
             <br>
-            <br>
-        <div align="center" class="container background-container p-0">
-               <form method="POST" action="connexion1.php">
-                    <hr>
-                    <div class="row">
-                         <div class="col-10">
-                              Sujet 1 : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloremque?.
-                         </div> 
-                         <div class="col-2">
-                              <button onclick="window.location.href = 'Sujet.php'">Consulter</button>
-                         </div> 
-                    </div>
-                    <hr>
-                    <div class="row">
-                         <div class="col-10">
-                              Sujet 2 : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloremque?.
-                         </div> 
-                         <div class="col-2">
-                              <button onclick="window.location.href = 'Sujet.php'">Consulter</button>
-                         </div> 
-                    </div>
-                    <hr>
-                    <div class="row">
-                         <div class="col-10">
-                              Sujet 3 : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloremque?.
-                         </div> 
-                         <div class="col-2">
-                              <button onclick="window.location.href = 'Sujet.php'">Consulter</button>
-                         </div> 
-                    </div>
-                    <hr>
+     
+            
+     <div align="center" class="container background-container p-0">
                     
-               </form>
-        </div>
+                         <?php
+                              foreach ($listeSujets as $index => $sujet) {
+                                   echo 
+                                   "<hr>
+                                   <div class='row'>
+                                       <div class='col-10' align='left'>
+                                           Sujet {$sujet['id']}: {$sujet['nom']}
+                                       </div> 
+                                       <div class='col-2'>
+                                           <button onclick=\"window.location.href = 'Sujet.php?sujet={$sujet['id']}'\">Consulter</button>
+                                       </div>
+                                   </div>
+                                   <hr>";
+                               }
+                               
+                              ?>
+
+          </div>
+        
 
 </body>
     
